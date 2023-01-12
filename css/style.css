@@ -65,3 +65,13 @@ header {
     font-size: 0.7rem;
     font-weight: 500;
 }
+
+/* contact me */
+.messageForm {
+    height: 10rem;
+}
+
+.sendForm {
+    background-color: #1abc9c;
+    color: white;
+}
