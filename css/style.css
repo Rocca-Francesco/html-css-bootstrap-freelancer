@@ -67,6 +67,10 @@ header {
 }
 
 /* contact me */
+.formContact {
+    width: 100%;
+}
+
 .messageForm {
     height: 10rem;
 }
@@ -74,4 +78,21 @@ header {
 .sendForm {
     background-color: #1abc9c;
     color: white;
+}
+
+/* footer */
+.info-general {
+    background-color: #3a546d;
+    color: white;
+    font-size: 0.7rem;
+}
+
+.copyright {
+    background-color: #2c3e50;
+    color: white;
+    font-size: 0.5rem;
+}
+
+.copyright>p {
+    margin: 0;
 }
