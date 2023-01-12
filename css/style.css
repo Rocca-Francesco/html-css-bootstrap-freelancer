@@ -8,18 +8,42 @@
     border: 1px solid black;
 } */
 
+/* generals */
+
+.sectionsTitle {
+    font-size: 1.5rem;
+}
+
+.sectionsLine {
+    background-color: #2c3e50;
+    width: 4rem;
+    height: 2px;
+    border-radius: 2px;
+}
+
 /* header */
 header {
     background-color: #2c3e50;
     color: white;
 }
 
+.intestazione {
+    height: 3rem;
+}
+
 .logo {
-    font-size: 1rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.navBar {
+    margin: 0;
 }
 
 .navBarLi {
-    font-size: 0.7rem;
+    font-size: 0.5rem;
 }
 
 /* jumbotron */
@@ -32,17 +56,15 @@ header {
     width: 7rem;
 }
 
-.jumboTitle {
-    font-size: 1.5rem;
-}
-
 .jumboLine {
     background-color: white;
-    width: 4rem;
-    height: 2px;
-    border-radius: 2px;
 }
 
 .jumboText {
     font-size: 0.7rem;
+}
+
+/* portfolio */
+.cardsImg {
+    width: 4rem;
 }

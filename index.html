@@ -19,12 +19,21 @@
     <!-- header -->
     <header>
         <div class="container-md">
-            <div class="intestazione row d-flex justify-content-between">
-                <div class="col-4 d-flex align-items-center">
+            <div class="row d-flex justify-content-between">
+                <div class="intestazione col-6 d-flex align-items-center">
                     <h1 class="logo">START BOOTSTRAP</h1>
                 </div>
-                <div class="col-4">
-                    <ul class="navBar list-inline">
+                <div class="intestazione col-3  d-flex align-items-center justify-content-end">
+                    <div>
+                        <span class="navBarSmall d-flex align-items-center border rounded p-1 d-md-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                            </svg>
+                        </span>
+                    </div>
+                    <ul class="navBar list-inline d-none d-md-flex align-items-center">
                         <li class="navBarLi list-inline-item">PORTFOLIO</li>
                         <li class="navBarLi list-inline-item">ABOUT</li>
                         <li class="navBarLi list-inline-item">CONTACT</li>
@@ -37,20 +46,53 @@
     <!-- jumbotron -->
     <section id="jumbotron">
         <div class="row d-flex justify-content-center pt-4">
-            <div class="jumbo col-8 d-flex  flex-column align-items-center">
+            <div class="jumbo col-8 d-flex flex-column align-items-center">
                 <img class="jumboImg" src="./img/avatar.svg" alt="">
-                <h2 class="jumboTitle m-1">START BOOTSTRAP</h2>
+                <!-- titolo section -->
+                <h2 class="sectionsTitle m-1">START BOOTSTRAP</h2>
                 <div class="d-flex align-items-center">
-                    <span class="jumboLine m-2"></span>
-                    <span class="jumboStar">&bigstar;</span>
-                    <span class="jumboLine m-2"></span>
+                    <span class="sectionsLine jumboLine m-2"></span>
+                    <span class="sectionsStar">&bigstar;</span>
+                    <span class="sectionsLine jumboLine m-2"></span>
                 </div>
                 <p class="jumboText">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
             </div>
         </div>
     </section>
 
-
+    <!-- portfolio -->
+    <section id="portfolio ">
+        <div class="container-md d-flex flex-column align-items-center mt-4">
+            <!-- titolo section -->
+            <h2 class="sectionsTitle m-1">PORTFOLIO</h2>
+            <div class="d-flex align-items-center">
+                <span class="sectionsLine m-2"></span>
+                <span class="sectionsStar">&bigstar;</span>
+                <span class="sectionsLine m-2"></span>
+            </div>
+            <!-- cards -->
+            <div class="cards row d-flex">
+                <div class="cardsBox col-12">
+                    <img class="cardsImg" src="./img/cabin.png" alt="house">
+                </div>
+                <div class="cardsBox col-12">
+                    <img class="cardsImg" src="./img/cake.png" alt="cake">
+                </div>
+                <div class="cardsBox col-12">
+                    <img class="cardsImg" src="./img/circus.png" alt="circus">
+                </div>
+                <div class="cardsBox col-12">
+                    <img class="cardsImg" src="./img/game.png" alt="game">
+                </div>
+                <div class="cardsBox col-12">
+                    <img class="cardsImg" src="./img/safe.png" alt="safe">
+                </div>
+                <div class="cardsBox col-12">
+                    <img class="cardsImg" src="./img/submarine.png" alt="submarine">
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
