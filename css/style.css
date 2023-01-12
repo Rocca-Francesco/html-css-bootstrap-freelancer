@@ -9,6 +9,10 @@
     border-radius: 2px;
 }
 
+.whiteLine {
+    background-color: white;
+}
+
 /* header */
 header {
     background-color: #2c3e50;
@@ -45,10 +49,6 @@ header {
     max-width: 12rem;
 }
 
-.jumboLine {
-    background-color: white;
-}
-
 .jumboText {
     font-size: 0.7rem;
 }
@@ -56,4 +56,12 @@ header {
 /* portfolio */
 .cardsImg {
     width: 100%;
+}
+
+/* about */
+#about {
+    background-color: #1abc9c;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 500;
 }
